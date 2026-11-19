@@ -1,0 +1,27 @@
+MIS APPS — APLICACIÓN MADRE
+
+Este paquete contiene la aplicación madre lista para publicarse en el repositorio agudober/misapps.
+
+SUBIDA A GITHUB
+1. Abre https://github.com/agudober/misapps
+2. Entra en Code.
+3. Add file > Upload files.
+4. Descomprime este ZIP en tu ordenador.
+5. Sube TODO el contenido que hay dentro de la carpeta misapps (no subas la carpeta contenedora).
+6. Pulsa Commit changes en la rama main.
+7. Espera a que GitHub Pages publique y abre https://agudober.github.io/misapps/ .
+
+QUÉ HACE
+- Muestra el inicio de sesión de Supabase.
+- No ofrece registro público.
+- Tras iniciar sesión, muestra el acceso a Mis cuentas.
+- Mis horarios aparece como próximamente hasta que terminemos su integración.
+- Usa la URL y clave pública que ya aparecen en el paquete que compartiste de Mis cuentas.
+
+IMPORTANTE SOBRE LA SESIÓN COMPARTIDA
+La aplicación madre utiliza el mismo proyecto Supabase y la misma clave pública del paquete de Mis cuentas. Para que el acceso sea realmente único, el siguiente paso será actualizar el repositorio agudober/miscuentas para que deje de mostrar su propio formulario y compruebe la sesión iniciada por la madre. No borres ni cambies todavía el repositorio miscuentas.
+
+SEGURIDAD
+La clave incluida es la clave pública publishable/anon del cliente, no debe ser una service_role/secret. Nunca publiques una clave service_role.
+
+No contiene SQL ni modifica la base de datos existente.
