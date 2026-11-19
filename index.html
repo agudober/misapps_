@@ -77,7 +77,7 @@ button{font:inherit;color:inherit;cursor:pointer}
 <script type="module">
 import {createClient} from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/+esm";
 import {SUPABASE_URL,SUPABASE_KEY} from "./config.js";
-import {APPS} from "./apps.js";
+import {APPS} from "./apps.js?v=3";
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const sb=createClient(SUPABASE_URL,SUPABASE_KEY);

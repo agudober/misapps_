@@ -1,13 +1,13 @@
-MIS APPS — ACTUALIZACIÓN PARA ACTIVAR MIS HORARIOS
+MIS APPS — CORRECCIÓN DEL ACCESO A MIS HORARIOS
 
-Este paquete está preparado para el repositorio agudober/misapps (GitHub Pages, main / root).
+1. Descomprime este ZIP.
+2. Sube TODO su contenido a la raíz del repositorio agudober/misapps.
+3. Acepta reemplazar los archivos existentes.
+4. Mantén la carpeta horarios/ en la raíz del repositorio.
+5. Espera a que GitHub Pages termine de publicar.
 
-1. Descomprime el ZIP.
-2. Sube TODO el contenido de esta carpeta a la raíz del repositorio agudober/misapps y acepta reemplazar los archivos existentes.
-3. Mantén la estructura: index.html, apps.js, config.js, manifest.webmanifest, sw.js, icons/ y horarios/index.html.
-4. No subas el contenido dentro de una carpeta adicional llamada misapps.
-5. No ejecutes ningún SQL de este ZIP: la migración de Mis horarios ya se ejecutó en Supabase.
+El acceso de Mis horarios queda configurado con la dirección completa:
+https://agudober.github.io/misapps/horarios/
 
-Mis cuentas sigue en https://agudober.github.io/miscuentas/.
-Mis horarios quedará en https://agudober.github.io/misapps/horarios/.
-La app de horarios importa ../config.js para compartir el proyecto y la sesión Supabase.
+También se ha actualizado la versión de caché del service worker para evitar
+que el navegador siga mostrando la pantalla antigua. No ejecutes SQL.
