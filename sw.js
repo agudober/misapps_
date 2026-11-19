@@ -1,5 +1,5 @@
 // Solo cachea los archivos de la pantalla de inicio; las apps hijas usan su propio service worker.
-const V = "madre-v3-horarios-link";
+const V = "madre-v4-icono-foto";
 const FILES = ["./", "index.html", "apps.js", "config.js", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png"];
 const scope = new URL("./", self.location).pathname;
 const own = p => p === scope || FILES.some(f => f !== "./" && p === scope + f);

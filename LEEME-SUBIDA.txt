@@ -11,3 +11,9 @@ https://agudober.github.io/misapps/horarios/
 
 También se ha actualizado la versión de caché del service worker para evitar
 que el navegador siga mostrando la pantalla antigua. No ejecutes SQL.
+
+
+ICONO DE MIS APPS
+El icono principal se ha cambiado por la fotografía proporcionada. Se han
+actualizado los iconos Android/PWA y Apple, y la versión de caché para
+forzar la descarga de la nueva imagen. Sube y reemplaza TODO el contenido.
