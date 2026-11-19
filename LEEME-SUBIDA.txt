@@ -1,19 +1,25 @@
-MIS APPS — CORRECCIÓN DEL ACCESO A MIS HORARIOS
+MIS APPS — REPOSITORIO ÚNICO CORREGIDO
 
-1. Descomprime este ZIP.
-2. Sube TODO su contenido a la raíz del repositorio agudober/misapps.
-3. Acepta reemplazar los archivos existentes.
-4. Mantén la carpeta horarios/ en la raíz del repositorio.
-5. Espera a que GitHub Pages termine de publicar.
+IMPORTANTE: este ZIP ya está aplanado. Al abrirlo, index.html, apps.js, config.js y las carpetas mis-cuentas/ y horarios/ aparecen directamente en la raíz. NO subas una carpeta contenedora adicional.
 
-El acceso de Mis horarios queda configurado con la dirección completa:
-https://agudober.github.io/misapps/horarios/
+SUBIDA
+1. Abre https://github.com/agudober/misapps
+2. Sustituye el contenido de la raíz por TODO el contenido de este ZIP.
+3. Comprueba que index.html queda en la raíz del repositorio y que existen las carpetas mis-cuentas/ y horarios/.
+4. Espera a que GitHub Pages termine el despliegue.
 
-También se ha actualizado la versión de caché del service worker para evitar
-que el navegador siga mostrando la pantalla antigua. No ejecutes SQL.
+URLS
+- Inicio: https://agudober.github.io/misapps/
+- Mis cuentas: https://agudober.github.io/misapps/mis-cuentas/
+- Mis horarios: https://agudober.github.io/misapps/horarios/
 
+CORRECCIONES
+- MisCuentas usa una paleta verde billete más marcada.
+- Todos los botones «Volver al inicio» apuntan explícitamente a /misapps/.
+- Mis horarios y Mis cuentas usan rutas dentro del mismo repositorio.
+- Se fuerza una nueva versión de la caché de MisCuentas y de Mis apps.
+- El botón de inicio navega en un solo clic.
+- Se conserva la configuración de Supabase y los SQL existentes.
 
-ICONO DE MIS APPS
-El icono principal se ha cambiado por la fotografía proporcionada. Se han
-actualizado los iconos Android/PWA y Apple, y la versión de caché para
-forzar la descarga de la nueva imagen. Sube y reemplaza TODO el contenido.
+NOTA
+No elimines el repositorio antiguo todavía. Primero verifica las tres direcciones nuevas.
